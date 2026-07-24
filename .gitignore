@@ -1,0 +1,124 @@
+# ==========================
+# Laravel 12 .gitignore
+# ==========================
+
+# Laravel dependencies
+/vendor
+
+# Node dependencies
+/node_modules
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Application key
+.phpunit.result.cache
+
+# Laravel storage
+/storage/*.key
+/storage/app/public
+/storage/debugbar
+/storage/framework/cache/*
+!/storage/framework/cache/.gitignore
+/storage/framework/sessions/*
+!/storage/framework/sessions/.gitignore
+/storage/framework/testing/*
+!/storage/framework/testing/.gitignore
+/storage/framework/views/*
+!/storage/framework/views/.gitignore
+/storage/logs/*
+!/storage/logs/.gitignore
+
+# Cache files
+/bootstrap/cache/*
+!/bootstrap/cache/.gitignore
+
+# Composer
+composer.phar
+
+# NPM / Yarn
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+pnpm-debug.log
+
+# Vite
+/public/build
+/public/hot
+
+# PHPUnit
+coverage
+coverage.xml
+
+# Pest
+.pest.cache
+
+# IDEs
+/.idea
+/.vscode
+*.code-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+
+# SQLite database (optional)
+/database/*.sqlite
+
+# Docker overrides (optional)
+docker-compose.override.yml
+
+# Sail runtime
+/.docker
+
+# Laravel Pint
+.pint.cache
+
+# Rector
+/.rector
+
+# PHPStan
+/phpstan.neon.tmp
+
+# Infection
+/infection.log
+
+# Temporary files
+*.tmp
+*.temp
+
+*.log
+.DS_Store
+.env
+.env.backup
+.env.production
+.phpactor.json
+.phpunit.result.cache
+/.fleet
+/.idea
+/.nova
+/.phpunit.cache
+/.vscode
+/.zed
+/auth.json
+/node_modules
+/public/build
+/public/hot
+/public/storage
+/storage/*.key
+/storage/pail
+/vendor
+Homestead.json
+Homestead.yaml
+Thumbs.db
+
